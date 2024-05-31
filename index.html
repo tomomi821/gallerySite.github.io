@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ギャラリーサイト</title>
+    <meta name="description" content="" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Zen+Antique+Soft&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/html5reset-1.6.1.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" type="module"></script>
+  </head>
+  <body>
+    <header class="l_hero">
+      <div class="l_hero__text">
+        <h1 class="e_title01">
+          <span class="e_title01__subtitle">gallery site</span
+          ><span class="e_title01__ttl">Tomomi</span>
+        </h1>
+        <nav class="l_hero__nave">
+          <ul class="l_hero__naveList">
+            <li class="l_hero__naveItem">
+              <a href="" class="l_hero__naveLink" target="_blank" rel="noopener"
+                >Twitter</a
+              >
+            </li>
+            <li class="l_hero__naveItem">
+              <a href="" class="l_hero__naveLink" target="_blank" rel="noopener"
+                >Instagram</a
+              >
+            </li>
+            <li class="l_hero__naveItem">
+              <a href="" class="l_hero__naveLink" target="_blank" rel="noopener"
+                >YouTube</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="l_hero__videoLine"></div>
+      <video
+        class="l_hero_video"
+        src="images/photo-movie.mp4"
+        autoplay
+        loop
+        muted
+        poster="images/hero.jpg"
+      ></video>
+    </header>
+    <main class="l_main">
+      <section class="l_main__inner c_grid">
+        <h2 class="visually-hidden" id="collection">Collection of works</h2>
+        <button
+          class="c_grid__modalButton"
+          aria-controls="modal"
+          aria-label="開かれている画面を閉じるボタン"
+          aria-hidden="true"
+        ></button>
+        <div
+          class="c_grid__modal"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="collection"
+          aria-hidden="true"
+          id="modal"
+        >
+          <img src="images/img1-800.jpg" alt="" class="c_grid__modalPhoto" />
+        </div>
+        <img
+          class="c_grid__photo -type01"
+          src="images/img1-800.jpg"
+          alt="work 1"
+        />
+        <img
+          class="c_grid__photo -type02"
+          src="images/img2-800.jpg"
+          alt="work 2"
+        />
+        <img
+          class="c_grid__photo -type03"
+          src="images/img3-800.jpg"
+          alt="work 3"
+        />
+        <img
+          class="c_grid__photo -type04"
+          src="images/img4-800.jpg"
+          alt="work 4"
+        />
+        <img
+          class="c_grid__photo -type05"
+          src="images/img5-800.jpg"
+          alt="work 5"
+        />
+        <img
+          class="c_grid__photo -type06"
+          src="images/img6-800.jpg"
+          alt="work 6"
+        />
+        <img
+          class="c_grid__photo -type07"
+          src="images/img7-800.jpg"
+          alt="work 7"
+        />
+        <img
+          class="c_grid__photo -type08"
+          src="images/img8-800.jpg"
+          alt="work 8"
+        />
+        <img
+          class="c_grid__photo -type09"
+          src="images/img9-800.jpg"
+          alt="work 9"
+        />
+        <img
+          class="c_grid__photo -type10"
+          src="images/img10-800.jpg"
+          alt="work 10"
+        />
+        <img
+          class="c_grid__photo -type11"
+          src="images/img11-800.jpg"
+          alt="work 11"
+        />
+        <img
+          class="c_grid__photo -type12"
+          src="images/img12-800.jpg"
+          alt="work 12"
+        />
+        <img
+          class="c_grid__photo -type13"
+          src="images/img13-800.jpg"
+          alt="work 13"
+        />
+      </section>
+    </main>
+    <footer class="l_footer">
+      <div class="l_footer__inner">
+        <ul class="c_footerNav">
+          <li class="c_footerNav__item">
+            <a
+              class="c_footerNav__link"
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener"
+              >Twitter</a
+            >
+          </li>
+          <li class="c_footerNav__item">
+            <a
+              class="c_footerNav__link"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener"
+              >Instagram</a
+            >
+          </li>
+          <li class="c_footerNav__item">
+            <a
+              class="c_footerNav__link"
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener"
+              >YouTube</a
+            >
+          </li>
+        </ul>
+        <p class="c_footerNav__copyright">
+          <small>© 2024 Tomomi's portfolio</small>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
